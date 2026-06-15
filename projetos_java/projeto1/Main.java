@@ -1,5 +1,7 @@
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
         Projeto p1 = new Projeto();
         p1.setCodigo(1);
         p1.setTitulo("Sistema de Vendas");
