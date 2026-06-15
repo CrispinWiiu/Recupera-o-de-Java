@@ -1,3 +1,4 @@
-public interface Rastreavel {
+public interface Rastreavel 
+{
     public void rastrear();
 }
