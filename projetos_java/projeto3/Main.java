@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
         ArrayList<Estacionamento> vagas = new ArrayList<>();
 
         vagas.add(new VagaComum(10.00));
@@ -13,10 +15,12 @@ public class Main {
         double faturamentoTotal = 0.0;
 
         System.out.println("=== Vagas Utilizadas ===");
-        for (Estacionamento vaga : vagas) {
+        for (Estacionamento vaga : vagas) 
+        {
             vaga.imprimeValor();
 
-            if (vaga instanceof VagaCoberta) {
+            if (vaga instanceof VagaCoberta) 
+            {
                 faturamentoTotal += ((VagaCoberta) vaga).getValorTotal();
             } else {
                 faturamentoTotal += vaga.getValor();
