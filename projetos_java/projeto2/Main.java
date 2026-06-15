@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
         ArrayList<Veiculo> veiculos = new ArrayList<>();
         ArrayList<Motorista> motoristas = new ArrayList<>();
 
